@@ -1,10 +1,10 @@
 # this file was auto genrated by sddm2rpm
-Name: corners
-Summary: Auto genrated specfile for corners sddm theme
+Name: sddm-theme-corners
+Summary: Auto genrated specfile for sddm-theme-corners sddm theme
 License: GPLv3
 Version: 1.0.0
 Release: 0%{?dist}
-Source0: corners.tar.gz
+Source0: sddm-theme-corners.tar.gz
 BuildArch:  noarch
 # QML imports:
 # org.kde.plasma.workspace.components
@@ -29,7 +29,7 @@ Recommends:     libqt5-qtvirtualkeyboards
 %endif
 
 %description
-auto genrated spec file for sddm theme corners
+auto genrated spec file for sddm theme sddm-theme-corners
 
 %prep
 %autosetup -n %{name}
@@ -38,11 +38,11 @@ auto genrated spec file for sddm theme corners
 # we don't need one
 
 %install
-mkdir -p %{buildroot}/%{_datadir}/sddm/themes/corners
-cp -r * %{buildroot}/%{_datadir}/sddm/themes/corners
+mkdir -p %{buildroot}/%{_datadir}/sddm/themes/sddm-theme-corners
+cp -r * %{buildroot}/%{_datadir}/sddm/themes/sddm-theme-corners
 
 %files
-%{_datadir}/sddm/themes/corners
+%{_datadir}/sddm/themes/sddm-theme-corners
 
 %changelog
 # please add one before compiling
