@@ -4,7 +4,7 @@ Summary: Auto genrated specfile for corners sddm theme
 License: GPLv3
 Version: 1.0.0
 Release: 0%{?dist}
-Source0: corners.tar.gz
+Source0: https://github.com/TRS-SoD/sddm-theme-corners-spec/raw/main/corners.tar.gz
 BuildArch:  noarch
 # QML imports:
 # org.kde.plasma.workspace.components
